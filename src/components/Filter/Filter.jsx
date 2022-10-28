@@ -29,28 +29,3 @@ Filter.propTypes = {
 }
 
 
-// class Filter extends Component {
-
-//   static propTypes = {
-//     value: PropTypes.string.isRequired,
-//     filterInput: PropTypes.func.isRequired
-//   }
-
-//   filterInputId = shortid.generate()
-
-//   render () {
-//       return (
-//           <FilterWrapper>
-//             <FilterLabel htmlFor={this.filterInputId}>Find contacts by name</FilterLabel>
-//             <InputFilterField
-//           id={this.filterInputId}
-//           onChange={this.props.filterInput}
-//           type="text"
-//           value={this.props.value}
-//           name="filter"
-//           title="Filter by name"
-//         />
-//           </FilterWrapper>
-//       );
-// };}
-

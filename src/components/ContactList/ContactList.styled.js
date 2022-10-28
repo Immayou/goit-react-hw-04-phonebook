@@ -25,7 +25,7 @@ export const NameInfo= styled.span`
 margin-right: 5px;
 `
 export const NumberInfo= styled.span`
-margin-right: 15px;
+margin-right: 0;
 `
 
 export const DeleteButton = styled.button`
