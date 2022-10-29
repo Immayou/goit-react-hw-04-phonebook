@@ -1,5 +1,9 @@
 import { useState, useEffect } from "react";
 
+import ContainerBox from '../ContainerBox/ContainerBox'
+
+import Box from '../Box/Box'
+
 import ContactForm from '../ContactForm/ContactForm'
 
 import ContactList from '../ContactList/ContactList'
@@ -46,10 +50,16 @@ export const App = () => {
 
   return (
     <Wrapper>
+      <ContainerBox>
+        <Box>
       <ContactForm submitData={formSubmitHandler}/>
-      {isEmptyContacts && <ContactsTitle>Contacts</ContactsTitle>}
-      {isEmptyContacts && <Filter value={filter} filterInput={filterHandler}/>}
-      {isEmptyContacts && <ContactList contacts={contactsToRender} onDeleteContact={deleteContact}/>}
+      {isEmptyContacts && <div>
+      <ContactsTitle>Contacts</ContactsTitle>
+      <Filter value={filter} filterInput={filterHandler}/>
+      <ContactList contacts={contactsToRender} onDeleteContact={deleteContact}/>
+      </div>}
+        </Box>
+      </ContainerBox>
     </Wrapper>
   );
 };

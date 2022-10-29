@@ -6,7 +6,7 @@ display: block;
 width: 100%;
 text-align: center;
 margin: 0 auto;
-padding: 20px 0;
+background: linear-gradient(45deg, #EECFBA, #C5DDE8);
 `
 export const ContactsTitle = styled.h2`
 font-weight: 500;
