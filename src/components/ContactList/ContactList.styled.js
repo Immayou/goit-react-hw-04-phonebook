@@ -29,6 +29,7 @@ export const DeleteButton = styled.button`
 width: 60px;
 min-height: 25px;
 border-radius: 5px;
+border: 1px solid gray;
 background-color: lightgray;
 transition: box-shadow 250ms cubic-bezier(0.075, 0.82, 0.165, 1), background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1), border 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
 

@@ -10,7 +10,7 @@ margin: 0 auto 20px auto;
 
 export const FilterLabel = styled.label`
 margin-bottom: 10px;
-font-size: 15px;
+font-size: 20px;
 line-height: 1.17;
 `
 
